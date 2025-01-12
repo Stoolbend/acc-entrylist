@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - next
+    paths-ignore:
+      - '*.md'
+      - LICENSE
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
