@@ -16,7 +16,7 @@ const tableFields = ['playerID', 'shortName', 'firstName', 'lastName', 'controls
   <VueFinalModal
     id="driver-select-modal"
     class="d-flex justify-content-center align-items-center modal"
-    content-class="modal-dialog modal-lg modal-fullscreen-lg-down"
+    content-class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-lg-down"
     content-transition="vfm-fade"
     overlay-transition="vfm-fade"
   >
