@@ -14,8 +14,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+import {createApp} from 'vue'
+import {createPinia} from 'pinia'
 
 import App from './App.vue'
 import router from './router'
@@ -25,11 +25,11 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import '@/assets/global.scss'
-import createBootstrap from 'bootstrap-vue-next'
+import {createBootstrap} from 'bootstrap-vue-next'
 
 // vue-final-modal
 import 'vue-final-modal/style.css'
-import { createVfm } from 'vue-final-modal'
+import {createVfm} from 'vue-final-modal'
 
 const app = createApp(App)
 
