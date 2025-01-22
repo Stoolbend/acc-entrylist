@@ -386,6 +386,18 @@ export const Cars = [
     dlc: DLC.GTWC2023,
   },
   {
+    name: 'McLaren 720S GT3 Evo',
+    value: 35,
+    year: 2023,
+    class: Class.GT3,
+  },
+  {
+    name: 'Ford Mustang GT3',
+    value: 36,
+    year: 2024,
+    class: Class.GT3,
+  },
+  {
     name: 'Alpine A110 GT4',
     value: 50,
     year: 2018,
@@ -552,10 +564,16 @@ export const Tracks = [
     dlc: DLC.ICGT,
   },
   {
-    name: 'Nürburgring',
-    circuitName: 'Nürburgring',
+    name: 'Nürburgring - Grand Prix',
+    circuitName: 'Nürburgring - Grand Prix Circuit',
     value: 'nurburgring',
     year: 2018,
+  },
+  {
+    name: 'Nürburgring - Nordschleife',
+    circuitName: 'Nürburgring - Nordschleife Grand Prix Circuit',
+    value: 'nurburgring_24h',
+    year: 2024,
   },
   {
     name: 'Oulton Park',
@@ -569,6 +587,12 @@ export const Tracks = [
     circuitName: 'Circuit Paul Ricard',
     value: 'paul_ricard',
     year: 2018,
+  },
+  {
+    name: 'Red Bull Ring',
+    circuitName: 'Red Bull Ring',
+    value: 'red_bull_ring',
+    year: 2024,
   },
   {
     name: 'Silverstone',
